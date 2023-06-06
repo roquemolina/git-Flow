@@ -5,22 +5,13 @@
 // binario y retornarlo, y si es impar, convertirlo a hexadecimal y retornarlo.
 
 function laCajaDePandora(numero) {
-    if (numero % 2 === 0) {
-      return numero.toString(2); // Convertir número par a binario
-    } else {
-      return numero.toString(16); // Convertir número impar a hexadecimal
-    }
-  }
-  function maxx (){
-    return {
-        nombre: "Maxx",
-        apellido: "Tobio",
-        edad: 43,
-        ciudad: "Bariloche",
-        pais: "Argentina",
-    }
-  }
-  //nota sobre metodos utilizados
+if (numero % 2 === 0) {
+    return numero.toString(2); // Convertir número par a binario
+} else {
+    return numero.toString(16); // Convertir número impar a hexadecimal
+}
+}
+    //nota sobre metodos utilizados
 /*    toString(2): Este método convierte el 
 número en una cadena de texto que representa 
 su valor en base 2 (binario). Por ejemplo, 
@@ -37,9 +28,20 @@ Por ejemplo, si tienes el número
 obtendrás la cadena "f", que es 
 la representación hexadecimal de 15.*/
 
-    console.log(laCajaDePandora(10));
-    console.log(laCajaDePandora(7));
-    console.log(laCajaDePandora(16));
-    console.log(laCajaDePandora(15));
-    console.log(laCajaDePandora(10000));
-    console.log(maxx());
+function maxx (){
+return {
+    nombre: "Maxx",
+    apellido: "Tobio",
+    edad: 43,
+    ciudad: "Bariloche",
+    pais: "Argentina",
+}
+}
+
+
+console.log(laCajaDePandora(10));
+console.log(laCajaDePandora(7));
+console.log(laCajaDePandora(16));
+console.log(laCajaDePandora(15));
+console.log(laCajaDePandora(10000));
+console.log(maxx());
