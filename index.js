@@ -11,12 +11,22 @@ function laCajaDePandora(numero) {
       return numero.toString(16); // Convertir número impar a hexadecimal
     }
   }
+  function maxx (){
+    return {
+        nombre: "Maxx",
+        apellido: "Tobio",
+        edad: 25,
+        ciudad: "Bariloche",
+        pais: "Argentina",
+    }
+  }
 
     console.log(laCajaDePandora(10));
     console.log(laCajaDePandora(7));
     console.log(laCajaDePandora(16));
     console.log(laCajaDePandora(15));
     console.log(laCajaDePandora(10000));
+    console.log(maxx());
 //nota sobre metodos utilizados
 /*    toString(2): Este método convierte el 
 número en una cadena de texto que representa 
