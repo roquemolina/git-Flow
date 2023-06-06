@@ -15,19 +15,12 @@ function laCajaDePandora(numero) {
     return {
         nombre: "Maxx",
         apellido: "Tobio",
-        edad: 25,
+        edad: 43,
         ciudad: "Bariloche",
         pais: "Argentina",
     }
   }
-
-    console.log(laCajaDePandora(10));
-    console.log(laCajaDePandora(7));
-    console.log(laCajaDePandora(16));
-    console.log(laCajaDePandora(15));
-    console.log(laCajaDePandora(10000));
-    console.log(maxx());
-//nota sobre metodos utilizados
+  //nota sobre metodos utilizados
 /*    toString(2): Este método convierte el 
 número en una cadena de texto que representa 
 su valor en base 2 (binario). Por ejemplo, 
@@ -43,3 +36,10 @@ Por ejemplo, si tienes el número
 15 y llamas a toString(16) en él, 
 obtendrás la cadena "f", que es 
 la representación hexadecimal de 15.*/
+
+    console.log(laCajaDePandora(10));
+    console.log(laCajaDePandora(7));
+    console.log(laCajaDePandora(16));
+    console.log(laCajaDePandora(15));
+    console.log(laCajaDePandora(10000));
+    console.log(maxx());
